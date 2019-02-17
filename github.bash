@@ -46,10 +46,11 @@ fi
 if [[ $1 == "--init" && $2 != "" ]];then
 
   PROJECT="$2"
+  COMMIT_MSG="init";
 
   git init;
   git add .;
-  git commit -m \"init\";
+  git commit -m "${COMMIT_MSG}";
   git remote add origin "${PROJECT}";
   git push -u origin master;
 
