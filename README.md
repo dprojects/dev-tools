@@ -1,6 +1,11 @@
 # Description
 
-Dev Tools to make GitHub updates quicker.
+Dev Tools to make GitHub updates quicker from terminal. Allow for:
+
+* Set active user.
+* Create new repository and commit to it.
+* Commit to current repository.
+* Support token.
 
 # Install
 
@@ -8,9 +13,13 @@ Dev Tools to make GitHub updates quicker.
 
 # Usage
 
-    User       : bash github.bash --set [USER]  
-    New        : bash github.bash --init [URL]  
-    Update     : bash github.bash --update [MSG]
+* Open terminal.
+* Go to `dev-tools` directory.
+* `cd ..`
+* Clone another project and go to it.
+* Now You can use it just by:
+
+    `../dev-tools/github.bash`
 
 # License
 
