@@ -6,7 +6,8 @@ Dev Tools to make GitHub updates quicker from terminal. Allow for:
 * Create new repository and commit to it.
 * Commit to current repository.
 * Support token.
-* Checking typos (via `codespell`, Thanks [luzpaz](https://github.com/luzpaz)) .
+* Checking typos via `codespell`.
+* Making Table Of Contents for MarkDown `README.md` file from its content (`makeTOC.py`)
 
 # Install
 
